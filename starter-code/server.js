@@ -10,8 +10,10 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // TODO: Include all of the static resources as an argument to app.use()
+app.use(express.static(__dirname + '/public'));
 
-app.get('*', function(request, response) {
+app.get('*', function(req, res) {
+  res.sendFile(__dirname + '/index.html');
   // TODO: Using the response object, send the index.html file back to the user
 });
 
