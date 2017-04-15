@@ -1,0 +1,27 @@
+{
+  "name": "301n7-paula-iryna-npm",
+  "version": "0.1.0",
+  "description": "lab 07",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maslovai/07-node-npm.git"
+  },
+  "keywords": [
+    "codefellows",
+    "lab7",
+    "server"
+  ],
+  "author": "paula, iryna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maslovai/07-node-npm/issues"
+  },
+  "homepage": "https://github.com/maslovai/07-node-npm#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
